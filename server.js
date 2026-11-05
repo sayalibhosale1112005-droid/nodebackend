@@ -6,11 +6,7 @@ const port = 3000;
 
 
 app.get('/', (req, res) => {
-    res.json({
-        id: 1,
-        name: 'Sayali',
-        branch: 'CSE'
-    });
+    console.log('Hello Students');
 });
 
 app.listen(port, () => {
